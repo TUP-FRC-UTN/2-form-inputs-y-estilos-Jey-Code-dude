@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        INSCRIPCIÓN A EXAMEN: <br> <br> Nombre: <br>
+        <input class="text" type="text" name="Nombre"><br> Apellido: <br>
+        <input class="text" type="text" name="Apellido"><br> N° Legajo: <br>
+        <input class="text" type="text" name="Legajo"><br> <br> Seleccione la Materia: <br>
+        <select name="materia" id="materia">
+            <option value="">Seleccione...</option>
+            <option value="1">Programacion 3</option>
+            <option value="2">Laboratorio 3</option>
+            <option value="3">OCE</option>
+            <option value="4">EIO</option>
+            <option value="5">OEM</option>
+        </select> <br><br> Seleccione la Fecha: <br>
+        <input type="date"> <br>
+
+        <br> Seleccione el Turno: <br>
+        <input type="radio" id="Mañana" name="Turno">Mañana<br>
+        <input type="radio" id="Tarde" name="Turno">Tarde<br>
+        <input type="radio" id="Noches" name="Turno">Noche<br> <br> Cargue su machete: <br>
+        <textarea name="machete" id="machete" cols="30" rows="10"></textarea>
+        <br><br>
+
+        <button type="reset">Cancelar</button>
+        <button type="submit">Confirmar</button>
+
+    </form>
+</body>
+
+</html>
